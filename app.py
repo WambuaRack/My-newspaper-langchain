@@ -4,7 +4,7 @@ from transformers import pipeline
 
 app = Flask(__name__)
 
-NEWS_API_KEY = '1496bf594f084f4bb63f6ffd348a37c8'  # Your NewsAPI key
+NEWS_API_KEY = ''  # Your NewsAPI key
 
 def fetch_news():
     url = f'https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWS_API_KEY}'
